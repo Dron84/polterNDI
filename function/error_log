@@ -1,0 +1,10 @@
+[17-Oct-2018 07:25:48 America/Chicago] PHP Warning:  require_once(root/function/db.php): failed to open stream: No such file or directory in /home1/xnsevdbd/public_html/ndi/function/post.php on line 9
+[17-Oct-2018 07:25:48 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'root/function/db.php' (include_path='.:/opt/php70/lib/php') in /home1/xnsevdbd/public_html/ndi/function/post.php on line 9
+[17-Oct-2018 07:28:26 America/Chicago] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'xnsevdbd_elect'@'localhost' to database 'xnsevdbd_election' in /home1/xnsevdbd/public_html/ndi/function/db.php on line 21
+[17-Oct-2018 07:34:23 America/Chicago] PHP Warning:  require_once(root/function/db.php): failed to open stream: No such file or directory in /home1/xnsevdbd/public_html/ndi/function/chart.php on line 2
+[17-Oct-2018 07:34:23 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'root/function/db.php' (include_path='.:/opt/php70/lib/php') in /home1/xnsevdbd/public_html/ndi/function/chart.php on line 2
+[17-Oct-2018 07:35:30 America/Chicago] PHP Warning:  require_once(root/function/db.php): failed to open stream: No such file or directory in /home1/xnsevdbd/public_html/ndi/function/indicator.php on line 2
+[17-Oct-2018 07:35:30 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'root/function/db.php' (include_path='.:/opt/php70/lib/php') in /home1/xnsevdbd/public_html/ndi/function/indicator.php on line 2
+[17-Oct-2018 08:13:12 America/Chicago] PHP Warning:  asort() expects parameter 1 to be array, null given in /home1/xnsevdbd/public_html/ndi/function/chart.php on line 20
+[17-Oct-2018 08:15:02 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home1/xnsevdbd/public_html/ndi/function/chart.php on line 20
+[17-Oct-2018 08:16:47 America/Chicago] PHP Warning:  krsort() expects parameter 1 to be array, null given in /home1/xnsevdbd/public_html/ndi/function/chart.php on line 20

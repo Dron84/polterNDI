@@ -1,0 +1,79 @@
+span.glyphicon-trash {
+  cursor: pointer; }
+
+.indicators {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer; }
+
+.flex-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+  display: flex; }
+
+.flex-item {
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 20px;
+  position: relative; }
+
+th {
+  width: 6em; }
+
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
+@-moz-keyframes rotate {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
+.glyphicon.glyphicon-refresh.click {
+  -webkit-animation: rotate 2s linear 0s;
+  -o-animation: rotate 2s linear 0s;
+  color: #009b85; }
+
+.red {
+  background-color: #9b0000;
+  color: #cccccc; }
+
+.yellow {
+  background-color: #d1cd4c; }
+
+.green {
+  background-color: #009b85; }
+
+.nav li:hover {
+  background-color: #009b85; }
+  .nav li:hover a:hover {
+    color: #ffffff; }
+
+.icons {
+  width: 16px;
+  height: 16px;
+  top: -2px;
+  position: relative;
+  margin-right: 6px; }
+  .icons-lg {
+    width: 32px;
+    height: 32px;
+    top: -2px;
+    position: relative;
+    margin-right: 6px; }
+
+.proc {
+  position: absolute;
+  right: 4px;
+  top: 2px; }
+
+/*# sourceMappingURL=index.css.map */
